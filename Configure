@@ -1,2 +1,0 @@
-cp config/tool_paths.conf.example config/tool_paths.conf
-# Edit config/tool_paths.conf with your system paths
