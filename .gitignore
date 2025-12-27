@@ -1,0 +1,53 @@
+# Config files with sensitive data
+config/tool_paths.conf
+config/.api_keys
+config/recon.conf
+
+# Output directories
+output/
+results/
+scan_*/
+*_output/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.backup
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+*.pid
+*.lock
+
+# Backup files
+*~
+\#*\#
+.\#*
+
+# Secrets
+.env
+.secret
+*.key
+*.pem
+*.crt
+
+# Large files
+*.zip
+*.tar.gz
+*.7z
+
+# Wordlists (large)
+templates/wordlists/*.txt
+!templates/wordlists/README.md
