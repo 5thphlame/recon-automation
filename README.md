@@ -46,6 +46,7 @@ recon-automation/
 ### 1. Clone Repository
 
 git clone https://github.com/5thphlame/recon-automation.git
+
 cd recon-automation
 
 ### 2. Setup Environment
